@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlackjackDeck.cs" />
+    <Compile Include="Deck.cs" />
+    <Compile Include="Enums\CardSuit.cs" />
+    <Compile Include="Enums\CardValue.cs" />
+    <Compile Include="Models\PlayingCardModel.cs" />
+    <Compile Include="PokerDeck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
